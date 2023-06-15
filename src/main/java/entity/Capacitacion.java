@@ -16,11 +16,12 @@ public class Capacitacion {
     private int cantidadAsistentes;
 
     private static int ultimoId;
+
     /**
      * Constructor vacio de clase
      */
     public Capacitacion() {
-    	this.identificador = ++ultimoId;
+        this.identificador = ++ultimoId;
     }
 
     /**
@@ -35,8 +36,8 @@ public class Capacitacion {
      */
     public Capacitacion(String rut, String dia, LocalTime hora, String lugar, LocalTime duracion,
             int cantidadAsistentes) {
-    	
-    	this();
+
+        this();
         this.rut = rut;
         this.dia = dia;
         this.hora = hora;
