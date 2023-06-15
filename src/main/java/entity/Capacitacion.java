@@ -15,16 +15,17 @@ public class Capacitacion {
     private LocalTime duracion;
     private int cantidadAsistentes;
 
+    private static int ultimoId;
     /**
      * Constructor vacio de clase
      */
     public Capacitacion() {
+    	this.identificador = ++ultimoId;
     }
 
     /**
      * Constructor de la clase con parametros
      * 
-     * @param identificador
      * @param rut
      * @param dia
      * @param hora
@@ -32,9 +33,10 @@ public class Capacitacion {
      * @param duracion
      * @param cantidadAsistentes
      */
-    public Capacitacion(int identificador, String rut, String dia, LocalTime hora, String lugar, LocalTime duracion,
+    public Capacitacion(String rut, String dia, LocalTime hora, String lugar, LocalTime duracion,
             int cantidadAsistentes) {
-        this.identificador = identificador;
+    	
+    	this();
         this.rut = rut;
         this.dia = dia;
         this.hora = hora;
