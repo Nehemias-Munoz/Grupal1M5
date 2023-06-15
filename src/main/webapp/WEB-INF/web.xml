@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CapacitacionServlet</display-name>
+    <servlet-name>CapacitacionServlet</servlet-name>
+    <servlet-class>control.CapacitacionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CapacitacionServlet</servlet-name>
+    <url-pattern>/CapacitacionServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
