@@ -20,7 +20,7 @@
 				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Crear capacitación</font></a></button></ul>
 				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Lista capacitaciones</font></a></button></ul>
 				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Listado de usuarios</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Crear usuario</font></a></button></ul>
+				<ul><button type="button" class="btn btn-primary"><a href="crearUsuario.jsp"><font color="white">Crear usuario</font></a></button></ul>
 				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Editar cliente</font></a></button></ul>
 				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Editar administrativo</font></a></button></ul>
 				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Editar profesional</font></a></button></ul>
