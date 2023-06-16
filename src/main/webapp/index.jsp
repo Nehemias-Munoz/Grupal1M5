@@ -19,7 +19,7 @@
   					<button class="btn btn-secondary btn-lg" type="button">Menú Principal</button>
   					<button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
 				<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="capacitacion.jsp">Inicio</a></li>
+					<li><a class="dropdown-item" href="/capacitacion.jsp">Inicio</a></li>
 					<li><a class="dropdown-item" href="contacto.jsp">Contacto</a></li>
 					<li><a class="dropdown-item" href="capacitacion.jsp">Crear capacitación</a></li>
 					<li><a class="dropdown-item" href="capacitacion.jsp">Lista capacitaciones</a></li>
