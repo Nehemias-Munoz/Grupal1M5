@@ -1,16 +1,14 @@
 package control;
 
-import jakarta.servlet.ServletException;
+import java.io.IOException;
+import java.time.LocalTime;
 
+import entity.Capacitacion;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalTime;
-
-import entity.Capacitacion;
 
 /**
  * Servlet implementation class CapacitacionServlet
