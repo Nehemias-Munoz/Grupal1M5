@@ -7,14 +7,13 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 import entity.Contacto;
 
 /**
  * Servlet implementation class CapacitacionServlet
  */
+@WebServlet("/ContactoServlet")
 public class ContactoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -49,7 +48,7 @@ public class ContactoServlet extends HttpServlet {
 		 String CONTACTO = request.getParameter("contacto");
 		 String CONSULTA = request.getParameter("consulta");
 
-		 Contacto nuevaContacto = new Contacto(NOMBRE, RUT, CORREO, TELEFONO, CONTACTO, CONSULTA);
+		 Contacto nuevoContacto = new Contacto(NOMBRE, RUT, CORREO, TELEFONO, CONTACTO, CONSULTA);
 		
 		
 	}
