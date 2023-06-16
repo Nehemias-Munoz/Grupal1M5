@@ -18,7 +18,7 @@ import entity.Capacitacion;
 @WebServlet("/CapacitacionServlet")
 public class CapacitacionServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
@@ -38,21 +38,22 @@ public class CapacitacionServlet extends HttpServlet {
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-		 String RUT = request.getParameter("rut");
-		 String DIA = request.getParameter("dia");
-		 LocalTime HORA = LocalTime.parse(request.getParameter("hora"));
-		 String LUGAR = request.getParameter("lugar");
-		 LocalTime DURACION = LocalTime.parse(request.getParameter("duracion"));
-		 int CANTIDAD_ASISTENTE = Integer.parseInt(request.getParameter("cAsistentes"));
+		String RUT = request.getParameter("rut");
+		String DIA = request.getParameter("dia");
+		LocalTime HORA = LocalTime.parse(request.getParameter("hora"));
+		String LUGAR = request.getParameter("lugar");
+		LocalTime DURACION = LocalTime.parse(request.getParameter("duracion"));
+		int CANTIDAD_ASISTENTE = Integer.parseInt(request.getParameter("cAsistentes"));
 
-		Capacitacion nuevaCapacitacion = new Capacitacion(RUT,DIA,HORA,LUGAR,DURACION,CANTIDAD_ASISTENTE);
-		
-		
+		Capacitacion nuevaCapacitacion = new Capacitacion(RUT, DIA, HORA, LUGAR, DURACION, CANTIDAD_ASISTENTE);
+
 	}
 
 }

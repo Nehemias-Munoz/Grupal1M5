@@ -9,7 +9,7 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  <servlet>
+  <!--<servlet>
     <description></description>
     <display-name>CapacitacionServlet</display-name>
     <servlet-name>CapacitacionServlet</servlet-name>
@@ -18,7 +18,7 @@
   <servlet-mapping>
     <servlet-name>CapacitacionServlet</servlet-name>
     <url-pattern>/CapacitacionServlet</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> 
   <servlet>
     <description></description>
     <display-name>UsuarioServlet</display-name>
@@ -38,5 +38,5 @@
   <servlet-mapping>
     <servlet-name>ContactoServlet</servlet-name>
     <url-pattern>/ContactoServlet</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping>-->
 </web-app>
