@@ -19,4 +19,24 @@
     <servlet-name>CapacitacionServlet</servlet-name>
     <url-pattern>/CapacitacionServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsuarioServlet</display-name>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <servlet-class>control.UsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <url-pattern>/UsuarioServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ContactoServlet</display-name>
+    <servlet-name>ContactoServlet</servlet-name>
+    <servlet-class>control.ContactoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactoServlet</servlet-name>
+    <url-pattern>/ContactoServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
