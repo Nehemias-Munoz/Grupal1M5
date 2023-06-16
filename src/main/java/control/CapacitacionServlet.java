@@ -15,7 +15,7 @@ import entity.Capacitacion;
 /**
  * Servlet implementation class CapacitacionServlet
  */
-
+@WebServlet("/CapacitacionServelt")
 public class CapacitacionServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
