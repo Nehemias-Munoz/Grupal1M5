@@ -20,23 +20,23 @@ pageEncoding="UTF-8"%>
           <form>
             <div class="form-group">
               <label for="nombre">Nombre</label>
-              <input type="text" class="form-control" id="nombre" />
+              <input type="text" class="form-control" name="nombre" id="nombre" />
             </div>
             <div class="form-group">
               <label for="primerApellido">Primer Apellido</label>
-              <input type="text" class="form-control" id="primerApellido" />
+              <input type="text" class="form-control" name="primerApellido" id="primerApellido" />
             </div>
             <div class="form-group">
               <label for="segundoApellido">Segundo Apellido</label>
-              <input type="text" class="form-control" id="segundoApellido" />
+              <input type="text" class="form-control" name="segundoApellido" id="segundoApellido" />
             </div>
             <div class="form-group">
               <label for="fechaNacimiento">Fecha nacimiento</label>
-              <input type="date" class="form-control" id="fechaNacimiento" />
+              <input type="date" class="form-control" name="fechaNacimiento" id="fechaNacimiento" />
             </div>
             <div class="form-group">
               <label for="run">Run</label>
-              <input type="text" class="form-control" id="run" />
+              <input type="text" class="form-control" name="run" id="run" />
             </div>
             <div class="d-grid gap-2 mt-2">
               <button type="submit" class="btn btn-success">Submit</button>
