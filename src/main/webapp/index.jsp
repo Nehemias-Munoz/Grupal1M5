@@ -12,29 +12,34 @@
 		<nav>
 			<a href="capacitacion.jsp" > Formulario capacitacion</a>
 		</nav>
-	<div class="container">
+	<div class="container" >
 		<main>
 			<section>
-				<ul><button type="submit" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Inicio</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Contacto</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Crear capacitación</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Lista capacitaciones</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Listado de usuarios</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="crearUsuario.jsp"><font color="white">Crear usuario</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Editar cliente</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Editar administrativo</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Editar profesional</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Listado visitas</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Responder checklist</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Listado pago</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Crear pago</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Listado asesorías</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Crear asesorías</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Reportes</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Administrar asistentes</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Login</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Gestionar accidentes</font></a></button></ul>
-				<ul><button type="button" class="btn btn-primary"><a href="capacitacion.jsp"><font color="white">Administrar chequeos</font></a></button></ul>
+				<div class="btn-group">
+  					<button class="btn btn-secondary btn-lg" type="button">Menú Principal</button>
+  					<button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="capacitacion.jsp">Inicio</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Contacto</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Crear capacitación</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Lista capacitaciones</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Editar cliente</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Listado de usuarios</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Editar administrativo</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Editar profesional</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Listado visitas</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Responder checklist</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Listado pago</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Crear pago</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Listado asesorías</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Crear asesorías</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Reportes</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Administrar asistentes</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Login</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Gestionar accidentes</a></li>
+					<li><a class="dropdown-item" href="capacitacion.jsp">Administrar chequeos</a></li>
+					<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
+				</ul>
 			</section>
 		</main>
 	</div>
