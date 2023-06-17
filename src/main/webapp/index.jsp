@@ -36,7 +36,7 @@
 							<li><a class="dropdown-item" href="capacitacion.jsp">Crear asesorías</a></li>
 							<li><a class="dropdown-item" href="capacitacion.jsp">Reportes</a></li>
 							<li><a class="dropdown-item" href="capacitacion.jsp">Administrar asistentes</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Login</a></li>
+							<li><a class="dropdown-item" href="login.jsp">Login</a></li>
 							<li><a class="dropdown-item" href="capacitacion.jsp">Gestionar accidentes</a></li>
 							<li><a class="dropdown-item" href="capacitacion.jsp">Administrar chequeos</a></li>
 							<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
@@ -45,9 +45,9 @@
 			</section>
 		</main>
 	</div>
-	<footer>
-	<footer/>
 	</header>
+	<footer>
+	</footer>
 <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
