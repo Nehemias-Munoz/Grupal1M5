@@ -9,43 +9,58 @@
   </head>
 <body class="container-fluid">
 	<header>
-		<nav>
-			<a href="capacitacion.jsp" >Formulario capacitacion</a>
-		</nav>
-	<div class="container">
-		<main>
-			<section>
-				<div class="btn-group">
-  					<button class="btn btn-secondary btn-lg" type="button">Menú Principal</button>
-  					<button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" 
-  					data-bs-toggle="dropdown" aria-expanded="false"></button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="capacitacion.jsp">Inicio</a></li>
-							<li><a class="dropdown-item" href="contacto.jsp">Contacto</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Crear capacitación</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Lista capacitaciones</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Editar cliente</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Listado de usuarios</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Editar administrativo</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Editar profesional</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Listado visitas</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Responder checklist</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Listado pago</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Crear pago</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Listado asesorías</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Crear asesorías</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Reportes</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Administrar asistentes</a></li>
-							<li><a class="dropdown-item" href="login.jsp">Login</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Gestionar accidentes</a></li>
-							<li><a class="dropdown-item" href="capacitacion.jsp">Administrar chequeos</a></li>
-							<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
-						</ul>
-				</div>	
-			</section>
-		</main>
-	</div>
-	</header>
+		<nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  			<div class="container-fluid">
+    			<a class="navbar-brand" href="contacto.jsp">Formulario Contacto</a>
+    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+    			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    			</button>
+    			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        				<li class="nav-item">
+          					<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        				</li>
+        				<li class="nav-item">
+          					<a class="nav-link" href="login.jsp">Log In</a>
+        				</li>
+        				<li class="nav-item dropdown">
+          					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" 
+          				aria-expanded="false">Menú Principal</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="capacitacion.jsp">Inicio</a></li>
+									<li><a class="dropdown-item" href="contacto.jsp">Contacto</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Crear capacitación</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Lista capacitaciones</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Editar cliente</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Listado de usuarios</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Editar administrativo</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Editar profesional</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Listado visitas</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Responder checklist</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Listado pago</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Crear pago</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Listado asesorías</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Crear asesorías</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Reportes</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Administrar asistentes</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Gestionar accidentes</a></li>
+									<li><a class="dropdown-item" href="capacitacion.jsp">Administrar chequeos</a></li>
+									<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
+								</ul>
+        					</li>
+       					 	<li class="nav-item">
+          						<a class="nav-link disabled">Disabled</a>
+       					 	</li>
+      					</ul>
+      					<form class="d-flex" role="search">
+        					<input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+       							<button class="btn btn-outline-success" type="submit">Buscar</button>
+      					</form>
+    				</div>
+  				</div>
+			</nav>
+		</header>
 	<footer>
 	</footer>
 <script
