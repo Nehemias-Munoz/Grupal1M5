@@ -27,7 +27,7 @@
             						<li><a class="dropdown-item" href="crearAsesoria.jsp">Crear asesorías</a></li>
             						<li><a class="dropdown-item" href="crearCapacitacion.jsp">Crear capacitación</a></li>
             						<li><a class="dropdown-item" href="contacto.jsp">Contacto</a></li>
-            						<li><a class="dropdown-item" href="crearPago.jsp">Crear pago</a></li>
+            						<li><a class="dropdown-item" href="crearPago">Crear pago</a></li>
             						<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
             						<li><a class="dropdown-item" href="editarAdministrativo.jsp">Editar administrativo</a></li>
             						<li><a class="dropdown-item" href="editarCliente.jsp">Editar cliente</a></li>

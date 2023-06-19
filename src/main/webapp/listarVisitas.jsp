@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>Listar Visitas</h1>
 </body>
 </html>

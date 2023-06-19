@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>Editar Profesional</h1>
 </body>
 </html>
