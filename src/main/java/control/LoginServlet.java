@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpSession;
 /**
  * Servlet implementation class LoginServlet
  */
-
+@WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     private final String USUARIO="abcd";
@@ -46,7 +46,7 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 		String usuario = request.getParameter("usuario");
-		String clave = request.getParameter("clave");
+		String clave = request.getParameter("password");
 
 
 		 if(!(USUARIO.equals(usuario) && CLAVE.equals(clave))) {

@@ -15,18 +15,19 @@ pageEncoding="UTF-8"%>
     <main>
       <section class="card">
         <div class="card-body">
-          <form>
+        
+          <form action="LoginServlet" method="POST">
             <div class="form-group">
-              <label for="correo">Correo electrónico</label>
-              <input type="email" class="form-control" id="correo" required="@"/>
+              <label for="usuario">Usuario</label>
+              <input type="text" class="form-control" id="usuario" name ="usuario" required/>
             </div>
             <div class="form-group">
               <label for="password">Contraseña</label>
-              <input type="password" class="form-control" id="password" />
+              <input type="password" class="form-control" name="password" id="password" required/>
             </div>
            
             <div class="d-grid gap-2 mt-2">
-              <button type="submit" class="btn btn-success"><a href="index.jsp">Log In</a></button>
+              <button type="submit" class="btn btn-success">Log In</button>
             </div>
           </form>
         </div>
