@@ -26,7 +26,7 @@ pageEncoding="UTF-8"%>
             </div>
            
             <div class="d-grid gap-2 mt-2">
-              <button type="submit" class="btn btn-success">Log In</button>
+              <button type="submit" class="btn btn-success"><a href="index.jsp">Log In</a></button>
             </div>
           </form>
         </div>

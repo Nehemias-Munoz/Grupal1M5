@@ -22,24 +22,24 @@
         					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" 
         					data-bs-toggle="dropdown" aria-expanded="false">Menú Principal</a>
           						<ul class="dropdown-menu">
-          							<li><a class="dropdown-item" href="capacitacion.jsp">Administrar asistentes</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Administrar chequeos</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Crear asesorías</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Crear capacitación</a></li>
+          							<li><a class="dropdown-item" href="administrarAsistentes">Administrar asistentes</a></li>
+            						<li><a class="dropdown-item" href="administrarChequeos">Administrar chequeos</a></li>
+            						<li><a class="dropdown-item" href="crearAsesoria">Crear asesorías</a></li>
+            						<li><a class="dropdown-item" href="crearCapacitacion.jsp">Crear capacitación</a></li>
             						<li><a class="dropdown-item" href="contacto.jsp">Contacto</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Crear pago</a></li>
+            						<li><a class="dropdown-item" href="crearPago">Crear pago</a></li>
             						<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Editar administrativo</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Editar cliente</a></li>
-            						<li><a class="dropdown-item" href="capacitacion.jsp">Editar profesional</a></li>
-									<li><a class="dropdown-item" href="capacitacion.jsp">Gestionar accidentes</a></li>
-									<li><a class="dropdown-item" href="capacitacion.jsp">Lista capacitaciones</a></li>	
-									<li><a class="dropdown-item" href="capacitacion.jsp">Listado asesorías</a></li>	
-									<li><a class="dropdown-item" href="capacitacion.jsp">Listado pago</a></li>
-									<li><a class="dropdown-item" href="capacitacion.jsp">Listado usuarios</a></li>
-									<li><a class="dropdown-item" href="capacitacion.jsp">Listado visitas</a></li>
-									<li><a class="dropdown-item" href="capacitacion.jsp">Responder checklist</a></li>			
-									<li><a class="dropdown-item" href="capacitacion.jsp">Reportes</a></li>		
+            						<li><a class="dropdown-item" href="editarAdministrativo.jsp">Editar administrativo</a></li>
+            						<li><a class="dropdown-item" href="editarCliente.jsp">Editar cliente</a></li>
+            						<li><a class="dropdown-item" href="editarProfesional.jsp">Editar profesional</a></li>
+									<li><a class="dropdown-item" href="gestionarAccidente.jsp">Gestionar accidentes</a></li>
+									<li><a class="dropdown-item" href="listarCapacitaciones.jsp">Lista capacitaciones</a></li>	
+									<li><a class="dropdown-item" href="listarAsesoria.jsp">Listado asesorías</a></li>	
+									<li><a class="dropdown-item" href="listarPagos.jsp">Listado pago</a></li>
+									<li><a class="dropdown-item" href="listarUsuarios.jsp">Listado usuarios</a></li>
+									<li><a class="dropdown-item" href="listarVisitas.jsp">Listado visitas</a></li>
+									<li><a class="dropdown-item" href="#">Responder checklist</a></li>			
+									<li><a class="dropdown-item" href="reportes.jsp">Reportes</a></li>		
           						</ul>
         					</li>
       					</ul>
