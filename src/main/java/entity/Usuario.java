@@ -2,6 +2,7 @@ package entity;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+
 public class Usuario {
 
     private String nombre;

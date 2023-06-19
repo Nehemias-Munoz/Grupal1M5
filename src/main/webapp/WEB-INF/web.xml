@@ -38,5 +38,12 @@
   <servlet-mapping>
     <servlet-name>listarUsuariosServlet</servlet-name>
     <url-pattern>/listarUsuariosServlet</url-pattern>
+    <display-name>UsuarioServlet</display-name>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <servlet-class>control.UsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsuarioServlet</servlet-name>
+    <url-pattern>/UsuarioServlet</url-pattern>
   </servlet-mapping>
 </web-app>
