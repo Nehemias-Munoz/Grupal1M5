@@ -30,10 +30,10 @@ pageEncoding="UTF-8"%>
           							<li><a class="dropdown-item" href="administrarAsistentes">Administrar asistentes</a></li>
             						<li><a class="dropdown-item" href="administrarChequeos">Administrar chequeos</a></li>
             						<li><a class="dropdown-item" href="crearAsesoria">Crear asesorías</a></li>
-            						<li><a class="dropdown-item active" href="crearCapacitacion.jsp">Crear capacitación</a></li>
+            						<li><a class="dropdown-item" href="crearCapacitacion.jsp">Crear capacitación</a></li>
             						<li><a class="dropdown-item" href="contacto.jsp">Contacto</a></li>
             						<li><a class="dropdown-item" href="crearPago">Crear pago</a></li>
-            						<li><a class="dropdown-item" href="crearUsuario.jsp">Crear usuario</a></li>
+            						<li><a class="dropdown-item active" href="crearUsuario.jsp">Crear usuario</a></li>
             						<li><a class="dropdown-item" href="editarAdministrativo.jsp">Editar administrativo</a></li>
             						<li><a class="dropdown-item" href="editarCliente.jsp">Editar cliente</a></li>
             						<li><a class="dropdown-item" href="editarProfesional.jsp">Editar profesional</a></li>
@@ -55,6 +55,7 @@ pageEncoding="UTF-8"%>
     <main>
       <section class="card">
         <div class="card-body">
+        		<h3 class="text-center">Creacion Usuario</h3>
           <form>
             <div class="form-group">
               <label for="nombre">Nombre</label>
