@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Profesional {
 	private String titulo;
 	private LocalDate fechaIngreso;
-	
+
 	public String getTitulo() {
 		return titulo;
 	}
@@ -27,7 +27,7 @@ public class Profesional {
 		this.titulo = titulo;
 		this.fechaIngreso = fechaIngreso;
 	}
-	
-	
+
+
 
 }

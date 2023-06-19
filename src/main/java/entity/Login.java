@@ -6,10 +6,10 @@ package entity;
  */
 
 public class Login {
-	
+
 	private String usuario;
 	private String clave;
-	
+
 	public Login() {
 		super();
 	}
@@ -38,8 +38,8 @@ public class Login {
 
 	@Override
 	public String toString() {
-		return "Login [usuario=" + usuario + 
+		return "Login [usuario=" + usuario +
 				", clave=" + clave + "]";
 	}
-	
+
 }

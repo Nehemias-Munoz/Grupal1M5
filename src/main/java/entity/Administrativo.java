@@ -3,7 +3,7 @@ package entity;
 public class Administrativo {
 	private String area;
 	private String experiencia;
-	
+
 	public Administrativo(String area, String experiencia) {
 		super();
 		this.area = area;
@@ -25,7 +25,7 @@ public class Administrativo {
 	public void setExperiencia(String experiencia) {
 		this.experiencia = experiencia;
 	}
-	
-	
+
+
 
 }

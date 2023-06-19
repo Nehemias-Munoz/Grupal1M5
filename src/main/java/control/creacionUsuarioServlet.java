@@ -1,14 +1,14 @@
 package control;
 
+import java.io.IOException;
+import java.time.LocalDate;
+
+import entity.Usuario;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.time.LocalDate;
-
-import entity.Usuario;
 
 /**
  * Servlet implementation class creacionUsuarioServlet
@@ -18,7 +18,7 @@ public class creacionUsuarioServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
-     * Default constructor. 
+     * Default constructor.
      */
     public creacionUsuarioServlet() {
         // TODO Auto-generated constructor stub

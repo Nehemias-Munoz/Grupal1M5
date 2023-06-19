@@ -9,7 +9,7 @@ public class Cliente {
 	private String direccion;
 	private String comuna;
 	private int edad;
-	
+
 	public String getRut() {
 		return rut;
 	}
@@ -86,9 +86,9 @@ public class Cliente {
 		this.comuna = comuna;
 		this.edad = edad;
 	}
-	
-	
-	
-	
+
+
+
+
 
 }
