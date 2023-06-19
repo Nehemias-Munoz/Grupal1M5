@@ -23,25 +23,26 @@ pageEncoding="UTF-8"%>
         >
           <div class="mb-3">
             <label for="rut" class="form-label">Rut:</label>
-            <input type="text" class="form-control" id="rut" required />
+            <input type="text" class="form-control" name="rut" id="rut" required />
           </div>
           <div class="mb-3">
             <label for="dia" class="form-label">Dia:</label>
-            <input type="date" class="form-control" id="dia" required />
+            <input type="date" class="form-control" name="dia" id="dia" required />
           </div>
           <div class="mb-3">
             <label for="hora" class="form-label">Hora:</label>
-            <input type="time" class="form-control" id="hora" required />
+            <input type="time" class="form-control" name="hora" id="hora" required />
           </div>
           <div class="mb-3">
             <label for="lugar" class="form-label">Lugar:</label>
-            <input type="text" class="form-control" id="lugar" required />
+            <input type="text" class="form-control" name="lugar" id="lugar" required />
           </div>
           <div class="mb-3">
             <label for="duracion" class="form-label">Duracion:</label>
             <input
               type="time"
               class="form-control"
+              name="duracion"
               id="duracion"
               required
             />
@@ -55,6 +56,7 @@ pageEncoding="UTF-8"%>
               min="0"
               max="1000"
               class="form-control"
+              name="cantidadAsistentes"
               id="cAsistentes"
             />
           </div>
