@@ -38,4 +38,14 @@
     <servlet-name>UsuarioServlet</servlet-name>
     <url-pattern>/UsuarioServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>creacionUsuarioServlet</display-name>
+    <servlet-name>creacionUsuarioServlet</servlet-name>
+    <servlet-class>control.creacionUsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>creacionUsuarioServlet</servlet-name>
+    <url-pattern>/creacionUsuarioServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

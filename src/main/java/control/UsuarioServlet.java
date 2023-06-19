@@ -42,15 +42,8 @@ public class UsuarioServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-		 String NOMBRE = request.getParameter("nombre");
-		 String PRIMER_APELLIDO = request.getParameter("apellido1");
-		 String SEGUNDO_APELLIDO = request.getParameter("apellido2");
-		 LocalDate FECHA_NACIMIENTO = LocalDate.parse((request.getParameter("fechaNacimiento")));
-		 String RUN = request.getParameter("run");
+		 
 
-		 Usuario nuevoUsuario = new Usuario(NOMBRE, PRIMER_APELLIDO, SEGUNDO_APELLIDO, FECHA_NACIMIENTO, RUN);
-		
-		
 	}
 
 }

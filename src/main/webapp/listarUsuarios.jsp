@@ -1,6 +1,15 @@
+<%@page import="java.time.LocalDate"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<%
+
+String nombre = request.getParameter("nombre");
+String primerApellido = request.getParameter("apellido1");
+String segundoApellido = request.getParameter("apellido2");
+LocalDate fechaNacimiento = LocalDate.parse((request.getParameter("fechaNacimiento")));
+String run = request.getParameter("run");
+%>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -59,7 +68,7 @@
 			<section class="card">
 				<div class="card-body">
 					<ul class="list-group">
-					
+						<li><%=nombre%></li>
 					</ul>
 				</div>
 			</section>
