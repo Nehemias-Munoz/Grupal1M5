@@ -3,7 +3,7 @@
   <display-name>Grupal1M5</display-name>
   <!--  <welcome-file-list>
     <welcome-file>index.html</welcome-file>
-    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.jsp</welcome-file>
@@ -21,6 +21,15 @@
   </servlet-mapping>
   <servlet>
     <description></description>
+    <display-name>listarUsuariosServlet</display-name>
+    <servlet-name>listarUsuariosServlet</servlet-name>
+    <servlet-class>control.listarUsuariosServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listarUsuariosServlet</servlet-name>
+    <url-pattern>/listarUsuariosServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <display-name>UsuarioServlet</display-name>
     <servlet-name>UsuarioServlet</servlet-name>
     <servlet-class>control.UsuarioServlet</servlet-class>
@@ -28,5 +37,19 @@
   <servlet-mapping>
     <servlet-name>UsuarioServlet</servlet-name>
     <url-pattern>/UsuarioServlet</url-pattern>
+<<<<<<< HEAD
   </servlet-mapping> -->
+=======
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>creacionUsuarioServlet</display-name>
+    <servlet-name>creacionUsuarioServlet</servlet-name>
+    <servlet-class>control.creacionUsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>creacionUsuarioServlet</servlet-name>
+    <url-pattern>/creacionUsuarioServlet</url-pattern>
+  </servlet-mapping>
+>>>>>>> 0b3447fda1faf1db6a61a871ef3e63fae189b900
 </web-app>

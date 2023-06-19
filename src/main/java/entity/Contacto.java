@@ -12,21 +12,21 @@ package entity;
 	    private String telefono;
 	    private String contacto;
 	    private String consulta;
-	    
+
 
 	    private static int ultimoId;
 
 	    /**
 	     * Constructor vacio de clase
 	     */
-	        
+
 	    public Contacto() {
 	    	this.identificador = ++ultimoId;
 		}
 
 		/**
 	     * Constructor de la clase con parametros
-	     * 
+	     *
 	     * @param nombre
 	     * @param rut
 	     * @param correo
@@ -34,7 +34,7 @@ package entity;
 	     * @param contacto
 	     * @param consulta
 	     */
-	    
+
 	    public Contacto(String nombre, String rut, String correo, String telefono, String contacto,
 				String consulta) {
 			this();
@@ -48,25 +48,25 @@ package entity;
 
 		/**
 	     * Metodo que retorna los parametros y valores de la clase
-	     * 
+	     *
 	     * @return mensaje con los datos del cliente
 	     */
-	  
-	  
+
+
 
 	    @Override
 		public String toString() {
 			return "Contacto{" +
 	                "identificador=" + identificador +
-					", nombre=" + nombre + 
-					", rut=" + rut + 
-					", correo=" + correo + 
-					", telefono=" + telefono + 
-					", contacto=" + contacto + 
+					", nombre=" + nombre +
+					", rut=" + rut +
+					", correo=" + correo +
+					", telefono=" + telefono +
+					", contacto=" + contacto +
 					", consulta=" + consulta + "]";
 		}
 
-		
+
 
 	    public int getIdentificador() {
 			return identificador;
@@ -126,7 +126,7 @@ package entity;
 
 		public static int getUltimoId() {
 			return ultimoId;
-		
+
 	}
 
 }

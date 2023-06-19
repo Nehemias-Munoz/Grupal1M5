@@ -26,7 +26,7 @@ public class Capacitacion {
 
     /**
      * Constructor de la clase con parametros
-     * 
+     *
      * @param rut
      * @param dia
      * @param hora
@@ -48,7 +48,7 @@ public class Capacitacion {
 
     /**
      * Metodo que retorna los parametros y valores de la clase
-     * 
+     *
      * @return mensaje con los datos del cliente
      */
     @Override
@@ -124,7 +124,7 @@ public class Capacitacion {
 
     /**
      * Metodo que retorna un mensaje con datos de la capacitacion
-     * 
+     *
      * @return String con el lugar, hora, dia, duracion del objeto
      */
     public String mostrarDetalle() {

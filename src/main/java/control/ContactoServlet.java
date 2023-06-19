@@ -1,14 +1,13 @@
 package control;
 
-import jakarta.servlet.ServletException;
+import java.io.IOException;
 
+import entity.Contacto;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import java.io.IOException;
-
-import entity.Contacto;
 
 /**
  * Servlet implementation class CapacitacionServlet
@@ -16,7 +15,7 @@ import entity.Contacto;
 @WebServlet("/ContactoServlet")
 public class ContactoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
@@ -49,8 +48,8 @@ public class ContactoServlet extends HttpServlet {
 		 String CONSULTA = request.getParameter("consulta");
 
 		 Contacto nuevoContacto = new Contacto(NOMBRE, RUT, CORREO, TELEFONO, CONTACTO, CONSULTA);
-		
-		
+
+
 	}
 
 }
